@@ -1,0 +1,57 @@
+/* Ép nền trắng và chữ đen */
+.main-wrapper {
+  background-color: white;
+  color: #333;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.form-container, .list-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.header-inputs, .detail-line {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.data-table th, .data-table td {
+  border: 1px solid #eee;
+  padding: 12px;
+  text-align: left;
+}
+
+.data-table th {
+  background: #f8f9fa;
+}
+
+.status-message {
+  padding: 10px;
+  background: #e7f3ff;
+  border: 1px solid #b2d7ff;
+  margin-bottom: 10px;
+}
